@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucky</title>
+    <!-- tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/businessDetails.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="px-3 py-2 border-b border-gray-300 header-wrap">
+      <div class="containermx-auto"></div>
+      <div class="header-content">
+        <a href="#" class="logo-link">
+          <img src="./img/logo.png" alt="" class="logo" />
+        </a>
+      </div>
+    </header>
+    <!-- Business Register Section -->
+    <section
+      class="container-fluid mx-auto grid sm:grid-cols-1 md:grid-cols-12"
+    >
+      <!-- left Side-->
+      <div
+        class="col-span-12 md:col-span-5 bg-black text-white order-2 md:order-1 business-content"
+      >
+        <div class="content1">
+          <div class="content-img">
+            <img src="./img/customer-logo.svg" alt="" class="customer-logo" />
+          </div>
+          <div class="content-description">
+            <h3>More customers</h3>
+            <p>
+              Our users try new places.
+              <span class="font-bold">30% or more</span> of a store’s Afterpay
+              shoppers are first-time customers.
+            </p>
+          </div>
+        </div>
+        <div class="content1">
+          <div class="content-img">
+            <img
+              src="./img/higher-convension.svg"
+              alt=""
+              class="higher-convension-logo"
+            />
+          </div>
+          <div class="content-description">
+            <h3>Higher conversion</h3>
+            <p>
+              Our technology converts. Afterpay can grow cart conversions by
+              <span class="font-bold">up to 22%,</span> plus more repeat
+              shoppers.
+            </p>
+          </div>
+        </div>
+        <div class="content1">
+          <div class="content-img">
+            <img
+              src="./img/join-afterParty.svg"
+              alt=""
+              class="join-afterParty-logo"
+            />
+          </div>
+          <div class="content-description">
+            <h3>Join the afterparty</h3>
+            <p>
+              Our community spends more. Stores that join Afterpay can boost
+              their average order values by
+              <span class="font-bold">up to 40%.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side-->
+      <div class="col-span-12 md:col-span-7 bg-white p-5 order-1 md:order-2">
+        <form class="max-w-xl mx-auto bg-white p-8 business-form">
+          <h2 class="business-form-heading">Tell us about your business</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <input
+              type="text"
+              class="w-full p-4 border border-gray-300 rounded-md placeholder-black"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              class="w-full p-4 border border-gray-300 rounded-md placeholder-black"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <select
+            class="w-full p-4 mt-5 border border-gray-300 rounded-md"
+            required
+          >
+            <option value="">Category</option>
+            <option value="oil">Oil</option>
+            <option value="gas">Gas</option>
+            <option value="medicine">Medicine</option>
+            <option value="others">Others</option>
+          </select>
+          <input
+            type="tel"
+            class="w-full p-4 border border-gray-300 rounded-md placeholder-black block mt-5"
+            placeholder="Phone Number"
+            required
+          />
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
+            <input
+              type="text"
+              class="w-full p-4 border border-gray-300 rounded-md sm:w-full placeholder-black"
+              placeholder="Business name"
+              required
+            />
+            <input
+              type="url"
+              class="w-full p-4 border border-gray-300 rounded-md sm:w-full placeholder-black"
+              placeholder="Website URL"
+              required
+            />
+          </div>
+
+          <div class="business-radio-wrap mt-4">
+            <label
+              >Is your business part of a franchise, buying group or group with
+              multiple entities?</label
+            >
+            <div class="flex radio-input">
+              <label class="mr-2">
+                <input type="radio" name="group" class="mr-1 business-radio" />
+                Yes
+              </label>
+              <label>
+                <input type="radio" name="group" class="mr-1 business-radio" />
+                No
+              </label>
+            </div>
+          </div>
+          <button
+            type="submit"
+            class="w-full mt-6 text-black p-4 rounded-md business-submit"
+          >
+            Next
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

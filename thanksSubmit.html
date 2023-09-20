@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucky</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/thanksSubmit.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="px-3 py-2 border-b border-gray-300 header-wrap">
+      <div class="container mx-auto">
+        <div class="flex justify-between items-center">
+          <a href="#" class="logo-link">
+            <img src="./img/logo.png" alt="" class="logo" />
+          </a>
+          <a href="#" class="log-out font-semibold">Log out</a>
+        </div>
+      </div>
+    </header>
+    <!-- Business Register Section -->
+    <section
+      class="container mx-auto px-3 py-3 gap-5 grid sm:grid-cols-1 md:grid-cols-12"
+    >
+      <!-- left Side-->
+      <div class="col-span-12 lg:col-span-6 text-black mx-auto thanks-left">
+        <h2 class="thanks-heading">Thanks for applying!</h2>
+        <p class="thanks-description">
+          You can add Bucky to your checkout after our team has done their
+          compliance review.
+        </p>
+        <p class="thanks-description thanks-description2">
+          We’ll email you in the next
+          <span class="font-bold">2-3</span> business days. You can also check
+          back here for updates.
+        </p>
+      </div>
+
+      <!-- Right Side-->
+      <div class="col-span-12 lg:col-span-6 right-wrap">
+        <div class="done-bucky-wrap flex justify-between items-center">
+          <h2>Apply to join Bucky</h2>
+          <h6>Done</h6>
+        </div>
+        <div class="review-wrap flex items-start justify-between">
+          <div class="review-heading">
+            <h2 class="mb-2">Compliance Review</h2>
+            <p>This may take 2-3 business days</p>
+          </div>
+          <h6>Reviewing</h6>
+        </div>
+        <div class="checkout-wrap">
+          <h2>Add Afterpay to checkout</h2>
+        </div>
+        <div class="messagin-wrap">
+          <h2>Add Afterpay messaging</h2>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucky</title>
+    <!-- fontawesome icon cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/merchantAccount.css" />
+  </head>
+  <body>
+    <!-- userLogin code start -->
+    <section>
+      <div class="merchantAccount-wrap">
+        <a href="#" class="merchantAccount-logo">
+          <img src="./img/logo.png" alt="" class="merchant-acocunt-logo" />
+        </a>
+        <form
+          id="merchantAccount"
+          class="merchant-acocunt-form"
+          action="/login"
+          method="POST"
+        >
+          <div class="form-group1">
+            <label for="mobileNumber" class="merchant-acocunt-label"
+              >Enter your email address to get started, or pick up where you
+              left off.
+            </label>
+            <br />
+            <input
+              type="email"
+              class="email"
+              name="email"
+              placeholder="Enter Your Email"
+              required
+            />
+          </div>
+          <div class="recapcha-wrap">
+            <div class="recapcha-checkbox-wrap">
+              <input
+                type="checkbox"
+                id="robot"
+                name="robot"
+                class="robot-check"
+                required
+              />
+              <label for="robot" class="robot-label">I'm not a robot</label>
+            </div>
+            <div class="recapchap-content">
+              <img src="./img/recapcha.png" alt="" class="recapcha-log" />
+              <p>reCAPTCHA</p>
+              <div class="recapcha-conent">
+                <a href="#">Privacy</a>
+                <span>-</span>
+                <a href="#">Terms</a>
+              </div>
+            </div>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="merchant-acocunt-submit-btn">
+              Next
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- userLogin code end -->
+    <!-- custom js code -->
+    <script>
+      // ................userLogin form code....................
+
+      const merchantAccount = document.getElementById("merchantAccount");
+      merchantAccount.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the default form submission behavior
+        console.log("Form already submitted!");
+      });
+    </script>
+  </body>
+</html>

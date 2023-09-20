@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucky</title>
+    <!-- fontawesome icon cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/merchantLogin.css" />
+  </head>
+  <body>
+    <!-- merchant login code start -->
+    <section>
+      <div class="merchantLogin-wrap">
+        <a href="#" class="merchantLogin-logo">
+          <img src="./img/logo.png" alt="" class="merchant-login-logo" />
+        </a>
+        <h2 class="merchant-form-title">log-in-retailer</h2>
+        <form
+          id="merchantLogInForm"
+          class="merchant-login-form"
+          action="/login"
+          method="POST"
+        >
+          <div class="form-group1">
+            <input
+              type="email"
+              class="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <i class="fa-regular fa-envelope email-icon"></i>
+          </div>
+          <div class="form-group2">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+            <i class="fa-solid fa-lock lock-icon"></i>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="merchant-login-submit-btn">
+              log-in
+            </button>
+          </div>
+        </form>
+        <a href="#" class="forgot-password">forgot password?</a>
+        <a href="#" class="merchant-login">log-in-shopper-instead</a>
+      </div>
+    </section>
+    <footer>
+      <p>
+        <span>&copy; 2023</span>
+        <span class="footer-bucky">Bucky</span>
+        <a href="#"><span>Privacy |</span></a>
+        <a href="#"><span>Terms</span></a>
+      </p>
+    </footer>
+    <!-- merchant login code end -->
+    <!-- custom js code -->
+    <script>
+      // ................userLogin form code....................
+
+      const merchantLogInForm = document.getElementById("merchantLogInForm");
+      merchantLogInForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the default form submission behavior
+        console.log("Form already submitted!");
+      });
+    </script>
+  </body>
+</html>

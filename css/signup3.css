@@ -1,0 +1,198 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-family);
+  background: #f5f5f5;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* ..............signup3 page css start.................. */
+/* ...........header style start........... */
+header {
+  padding: 0px 0px;
+  background: #ffffff;
+}
+.login-btn {
+  margin-left: auto;
+  color: #0d0d0d;
+  font-size: 13.714px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  line-height: 20.571px;
+  display: inline-block;
+  padding: 11.143px 29.143px;
+  border-radius: 5.143px;
+  background: #24ccab;
+  border: 0;
+}
+.login-btn:hover {
+  color: #0d0d0d;
+}
+.navbar-toggler:focus {
+  box-shadow: none; /* Remove the outline when the navbar toggler is focused */
+}
+.navbar-nav {
+  gap: 27.429px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 13.714px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20.571px;
+}
+/* ...........header style END........... */
+/* ...........banner style start........... */
+.bannerWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+}
+/* ............................ */
+.banner-content2 {
+  padding: 50px;
+}
+.banner-content2 .account-form-heading {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+.account-form-sub-heading {
+  color: #a79f9f;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 72px;
+}
+.signup-form3 label {
+  color: #333;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.signup-form3 input.fullName,
+.signup-form3 input.email,
+.signup-form3 input.birthdate {
+  border-radius: 10px;
+  border: 1px solid #bdbdbd;
+  background: #fff;
+  color: #bdbdbd;
+  outline: none;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-checkbox-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.form-checkbox-wrap label {
+  color: #555;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+.form-checkbox-wrap input {
+  border-radius: 4px;
+  border: 1px solid #555;
+  background: #fff;
+  width: 16px;
+  height: 16px;
+}
+.form-checkbox-wrap label a {
+  color: #0645ad;
+}
+.create-account-submit-btn {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 10px 12px;
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  background: #24ccab;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+/* ...........banner style end........... */
+
+/* ..............signup3 page css end.................. */

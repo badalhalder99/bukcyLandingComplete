@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucky</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/businessDetails2.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="px-3 py-2 border-b border-gray-300 header-wrap">
+      <div class="container mx-auto"></div>
+      <div class="flex justify-between items-center">
+        <a href="#" class="logo-link">
+          <img src="./img/logo.png" alt="" class="logo" />
+        </a>
+        <a href="#" class="log-out font-semibold">Log out</a>
+      </div>
+    </header>
+    <!-- Business Register Section -->
+    <section
+      class="container mx-auto px-3 py-3 gap-5 grid md:grid-cols-1 lg:grid-cols-12"
+    >
+      <!-- left Side-->
+      <div class="col-span-12 lg:col-span-3 text-black mt-5"">
+        <h2 class="afterpay-apply-heading">Apply to join Afterpay</h2>
+        <p class="afterpay-apply-description mb-5">Fill out these sections so we can set up your Afterpay account.</p>
+        <div class="business-step-wrap">
+          <div class="business-step flex flex-between items-center">
+            <div class="step-img">
+              <img src="./img/square-top.png" alt="">
+            </div>
+            <div class="step-heading pl-5">
+              <h6>Your business details</h6>
+            </div>
+          </div>
+          <div class="business-step flex flex-between items-center business-step2">
+            <div class="step-img">
+              <img src="./img/square.png" alt="">
+            </div>
+            <div class="step-heading pl-5">
+              <h6>Link your bank</h6>
+            </div>
+          </div>
+          <div class="business-step flex flex-between items-center business-step3">
+            <div class="step-img step-img-bottom">
+              <img src="./img/square.png" alt="">
+            </div>
+            <div class="step-heading step-heading-bottom pl-5">
+              <h6>Add customer support</h6>
+            </div>
+          </div>
+       </div>
+      </div>
+      
+      <!-- middle Side-->
+      <div class="col-span-12 lg:col-span-5 text-black mt-5">
+          <h3 class="business-details-heading">1. Country &amp; Business Type <span><i class="fa-solid fa-circle-check"></i></span></h3>
+          <p class="business-details-sub-heading">We’ll use these details to verify your business.</p>
+          
+          <form class="flex flex-col space-y-4">
+            <label class="block select-label">
+              <span class="text-gray-700">Business Type</span>
+              <select class="w-full p-4 mt-4 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-select" required>
+                <option value="private company">Private Company</option>
+                <option value="public company">Public Company</option>
+                <option value="group company">Group Company</option>
+                <option value="partnership">Partnership</option>
+              </select>
+            </label>
+            
+            <label class="block">
+              <input class="w-full p-4 border border-gray-300 rounded-md placeholder-black block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="Identifier or registration number" type="number" required />
+
+              <small class="text-gray-500">A unique identifier assigned to your business, such as a NZ Business Number or Company Number (optional for Sole Traders)</small>
+            </label>
+            
+            <label class="block">
+              <input class="w-full p-4 border border-gray-300 rounded-md placeholder-black block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="Legal business name" type="text"  required/>
+              <small class="text-gray-500">Business address (listed on your NZ Business Number Register) You can check your NZBN business details</small>
+            </label>
+            
+            <label class="block">
+              <input class="w-full p-4 border border-gray-300 rounded-md placeholder-black block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="Street Address" type="text"  required/>
+            </label>
+            
+            <label class="block">
+              <input class="w-full p-4 border border-gray-300 rounded-md placeholder-black block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="Suburb/RD" type="text" required/>
+            </label>
+            
+            <label class="block">
+              <input class="w-full p-4 border border-gray-300 rounded-md placeholder-black block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="City"  type="text" required />
+            </label>
+            
+            <label class="block">
+              <input class="w-full p-4 border border-gray-300 rounded-md placeholder-black block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="Postcode" type="number" required/>
+            </label>
+            
+            <div class="flex items-center business-pay-checkbox-wrap">
+              <input type="checkbox" class="h-4 w-4 text-blue-500 rounded"  required/>
+              <p class="ml-2 text-gray-700">I confirm that my business address information matches the one that my New Zealand Business Number is registered to.</p>
+            </div>
+            
+            <button class="w-full text-black p-4 mb-5 rounded-md business-next" type="submit">Next</button>
+          </form>
+          <h3 class="business-details-heading mt-5">2. About your store <span><i class="fa-solid fa-circle-check"></i></span></h3>
+          <h3 class="business-details-heading">3. Owner details <span><i class="fa-solid fa-circle-check"></i></span></h3>
+      </div>
+      <!-- Right Side-->
+      <div class="col-span-12 lg:col-span-4 text-black right mt-5 right-column">
+        <div class="pay-img-wrap">
+          <img src="./img/pay.png" alt="pay image" class="w-full" />
+        </div>
+        <div class="pay-heading-wrap">
+          <h3 class="pay-heading">How Afterpay pays off</h3>
+        </div>
+        <div class="pay-heading-description-wrap">
+          <h5>New customers</h5>
+          <p>
+            Our service gets people to try new places. On average, 30% of a
+            store’s Afterpay users are shopping there for the first time.
+          </p>
+        </div>
+        <div class="pay-heading-description-wrap">
+          <h5>Higher order values</h5>
+          <p>
+            Our global Afterpay community buys more. Stores that welcome our
+            members can boost average order values by up to 40%.
+          </p>
+        </div>
+        <div class="pay-heading-description-wrap">
+          <h5>More conversion</h5>
+          <p>
+            Our online shopping technology converts. Afterpay can grow cart
+            conversions by up to 22%—plus more repeat shoppers.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

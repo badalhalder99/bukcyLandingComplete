@@ -1,0 +1,411 @@
+@media (min-width: 1200px) {
+  .wait-message {
+    display: none;
+  }
+  .edit-number {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner-content {
+    padding: 35px 20px;
+  }
+  .signup-bottom {
+    margin-top: 60px;
+  }
+  .account-login {
+    margin-top: 30px;
+  }
+  .wait-message {
+    display: none;
+  }
+  .edit-number {
+    display: none;
+  }
+  .user-code {
+    width: 58px;
+    height: 65px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-nav {
+    gap: 5px;
+  }
+  .banner-content p.create-account {
+    font-size: 16px;
+  }
+  .signup-hr {
+    margin-top: 30px;
+  }
+  .banner-content p.create-account {
+    margin-bottom: 22px;
+  }
+  .phone-number-label {
+    font-size: 17px;
+  }
+  .submit-btn,
+  .business-btn {
+    font-size: 16px;
+  }
+  .banner-content p.sms-text {
+    font-size: 11px;
+  }
+  .account-login {
+    font-size: 16px;
+    margin-top: 45px;
+  }
+  .account-login a {
+    font-size: 16px;
+  }
+  .logo {
+    width: 18px;
+    height: auto;
+  }
+  .bottom-text {
+    font-size: 11px;
+  }
+  .banner-content {
+    padding: 30px 15px;
+  }
+  .banner-content2 {
+    padding: 35px 15px;
+  }
+  .signup-bottom {
+    margin-top: 30px;
+  }
+  .account-login {
+    margin-top: 30px;
+  }
+  .wait-message {
+    display: none;
+  }
+  .edit-number {
+    display: none;
+  }
+  .user-code {
+    width: 53px;
+    height: 58px;
+  }
+  /* signup3 page code */
+  .account-form-sub-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .account-form-sub-heading {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .signup-form3 label {
+    font-size: 16px;
+  }
+  .formGroup label {
+    margin-bottom: 6px;
+  }
+  .signup-form3 input.fullName,
+  .signup-form3 input.email,
+  .signup-form3 input.birthdate {
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 9px;
+  }
+  .form-checkbox-wrap {
+    margin-bottom: 18px;
+  }
+  .form-checkbox-wrap label {
+    font-size: 12px;
+  }
+  .form-checkbox-wrap input {
+    width: 14px;
+    height: 14px;
+  }
+  .create-account-submit-btn {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .banner-content3 {
+    padding-left: 0px;
+  }
+  .formGroup label {
+    margin-bottom: 6px;
+  }
+}
+@media (min-width: 880px) and (max-width: 992px) {
+  .signup-hr {
+    margin-top: 60px;
+  }
+  .signup-bottom {
+    margin-top: 72px;
+  }
+  /* signup3 page code */
+  .account-form-sub-heading {
+    font-size: 24px;
+  }
+  .account-form-sub-heading {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .signup-form3 label {
+    font-size: 16px;
+  }
+  .signup-form3 input.fullName,
+  .signup-form3 input.email,
+  .signup-form3 input.birthdate {
+    border-radius: 5px;
+    color: #000;
+  }
+  .form-checkbox-wrap label {
+    font-size: 12px;
+  }
+  .form-checkbox-wrap input {
+    width: 14px;
+    height: 14px;
+  }
+  .create-account-submit-btn {
+    font-size: 16px;
+  }
+  .banner-content3 {
+    padding-left: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  header {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-nav {
+    gap: 4px;
+    margin-top: 12px;
+  }
+  .nav-link {
+    font-weight: 600;
+  }
+  .navbar-nav li:last-child {
+    margin-bottom: 12px;
+  }
+  .navbar-light .navbar-toggler {
+    border: 0;
+  }
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .banner-img {
+    display: none;
+  }
+  .banner-content {
+    padding: 30px;
+    padding-top: 50px;
+    width: 100%;
+    max-width: 540px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 22px;
+  }
+
+  .banner-content p.create-account {
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+  .banner-content h1 {
+    margin-bottom: 26px;
+  }
+  .login-btn {
+    margin-bottom: 12px;
+  }
+  .wait-message {
+    display: block;
+  }
+  .edit-number {
+    display: block;
+  }
+  .user-code {
+    width: 60px;
+    height: 62px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  header {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-nav {
+    gap: 4px;
+    margin-top: 12px;
+  }
+  .nav-link {
+    font-weight: 600;
+  }
+  .navbar-nav li:last-child {
+    margin-bottom: 12px;
+  }
+  .navbar-light .navbar-toggler {
+    border: 0;
+  }
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .banner-img {
+    display: none;
+  }
+  .banner-content {
+    padding: 30px;
+    padding-top: 50px;
+  }
+  .banner-content p.create-account {
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+  .banner-content h1 {
+    margin-bottom: 25px;
+  }
+  .login-btn {
+    margin-bottom: 12px;
+  }
+  .wait-message {
+    display: block;
+  }
+  .edit-number {
+    display: block;
+  }
+  .user-code {
+    width: 60px;
+    height: 62px;
+  }
+  /* signup3 page code */
+  .account-form-sub-heading {
+    font-size: 24px;
+  }
+  .account-form-sub-heading {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .signup-form3 label {
+    font-size: 16px;
+  }
+  .signup-form3 input.fullName,
+  .signup-form3 input.email,
+  .signup-form3 input.birthdate {
+    border-radius: 5px;
+    color: #000;
+  }
+  .form-checkbox-wrap label {
+    font-size: 12px;
+  }
+  .form-checkbox-wrap input {
+    width: 14px;
+    height: 14px;
+  }
+  .create-account-submit-btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .login-btn {
+    margin-bottom: 12px;
+  }
+  .banner-content p.create-account {
+    font-size: 16px;
+  }
+  .banner-content h1 {
+    margin-bottom: 25px;
+  }
+  .banner-content p.create-account {
+    margin-bottom: 40px;
+  }
+  .phone-number-label {
+    font-size: 17px;
+  }
+  .submit-btn,
+  .business-btn {
+    font-size: 16px;
+  }
+  .banner-content p.sms-text {
+    font-size: 11px;
+  }
+  .account-login {
+    font-size: 16px;
+    margin-top: 45px;
+  }
+  .account-login a {
+    font-size: 16px;
+  }
+  .logo {
+    width: 16px;
+    height: auto;
+  }
+  .bottom-text {
+    font-size: 11px;
+  }
+  .banner-content,
+  .banner-content2 {
+    padding: 25px;
+    padding-top: 50px;
+  }
+  .signup-bottom {
+    margin-top: 80px;
+  }
+  /* signup2 page code */
+  .banner-content2 h1 {
+    font-size: 22px;
+  }
+  .code-message {
+    font-size: 15px;
+  }
+  .user-varification-number {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .signup-form2 .verification-form-label {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .user-code {
+    width: 40px;
+    height: 40px;
+  }
+  .code-input-wrap {
+    justify-content: space-between;
+  }
+  .continue-btn {
+    font-size: 16px;
+  }
+  .sms-receive-text {
+    font-size: 11px;
+  }
+  /* signup3 page code */
+  .account-form-sub-heading {
+    font-size: 24px;
+  }
+  .account-form-sub-heading {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .signup-form3 label {
+    font-size: 16px;
+  }
+  .signup-form3 input.fullName,
+  .signup-form3 input.email,
+  .signup-form3 input.birthdate {
+    border-radius: 5px;
+    color: #000;
+  }
+  .form-checkbox-wrap label {
+    font-size: 12px;
+  }
+  .form-checkbox-wrap input {
+    width: 14px;
+    height: 14px;
+  }
+  .create-account-submit-btn {
+    font-size: 16px;
+  }
+}
+@media (min-width: 380px) and (max-width: 480px) {
+  .user-code {
+    width: 50px;
+    height: 50px;
+  }
+}

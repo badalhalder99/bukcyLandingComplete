@@ -1,0 +1,211 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-family);
+  background: #fff;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* ..............BusinessDetails page css start.................. */
+.log-out:hover {
+  text-decoration: underline !important;
+}
+.shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.right {
+  background: #f5f5f5;
+  padding: 32px 22.4px 16px 22.4px;
+  border-radius: 12px;
+}
+.pay-heading {
+  font-size: 1.4285714285714284rem;
+  font-family: var(--font-family);
+  font-weight: 600;
+  line-height: 1.6;
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+.pay-heading-description-wrap {
+  margin-bottom: 32px;
+}
+.pay-heading-description-wrap h5 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 4.8px;
+}
+.pay-heading-description-wrap p {
+  font-weight: 400;
+  line-height: 1.43;
+  font-size: 14px;
+}
+@media only screen and (max-width: 480px) {
+  .pay-heading {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+}
+.business-details-heading {
+  font-size: 1rem;
+  font-family: var(--font-family);
+  font-weight: 600;
+  line-height: 1.43;
+  margin-bottom: 13px;
+}
+.business-details-heading span {
+  color: #80d187;
+  font-size: 1.1rem;
+  margin-left: 5px;
+}
+.business-details-sub-heading {
+  color: #4d4d4d;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  margin-bottom: 16px;
+  font-family: var(--font-family);
+}
+.business-select,
+.business-input {
+  outline: none;
+  border-radius: 11px;
+  font-size: 15px;
+}
+.select-label {
+  position: relative;
+}
+.select-label span {
+  margin-left: 15px;
+  position: absolute;
+  top: 3px;
+  background: white;
+  padding: 4px;
+  font-size: 13px;
+}
+.business-pay-checkbox-wrap {
+  font-size: 14px;
+}
+
+.business-next {
+  background: #b2fce4;
+  font-weight: 600;
+  font-family: var(--font-family);
+  transition: all 0.5s ease;
+  border-radius: 11px;
+  margin-top: 30px !important;
+}
+.business-next:hover {
+  background: #7cb09f;
+}
+.right-column {
+  height: fit-content;
+}
+.afterpay-apply-heading {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 2.7rem;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.afterpay-apply-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+.business-step2,
+.business-step3 {
+  margin-top: 80px;
+}
+.business-step-wrap {
+  border-left: 1px solid #555;
+}
+.business-step {
+  margin-left: -8px;
+}
+.step-img,
+.step-heading {
+  margin-top: -10px;
+}
+.step-heading h6 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--font-family);
+  color: #000000a3;
+}
+.step-img-bottom,
+.step-heading-bottom {
+  margin-bottom: -10px;
+}
+/* some make changes here than before code */
+@media (min-width: 641px) and (max-width: 1023px) {
+  .container {
+    max-width: 600px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .afterpay-apply-heading {
+    font-size: 26px;
+    line-height: 1.5rem;
+  }
+  .pay-heading {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+}

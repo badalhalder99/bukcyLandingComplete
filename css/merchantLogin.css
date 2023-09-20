@@ -1,0 +1,189 @@
+/* import font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-family);
+  background: #fff;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* ..............merchant page css start.................. */
+.merchantLogin-wrap {
+  width: 380px;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.merchant-login-form input {
+  padding: 0.95em;
+  padding-left: 45px;
+  border: 1px solid #bfc5ca;
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 18px;
+  width: 100%;
+  font-size: 15px;
+  font-family: var(--font-family);
+}
+.merchant-login-submit-btn {
+  display: inline-block;
+  width: 100%;
+  background-color: #b2fce4;
+  border: 0.125rem solid transparent;
+  border-radius: 4px;
+  color: #000;
+  font-size: 1.1em;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8em;
+  line-height: 1.1;
+  user-select: none;
+  transition: 0.5s ease background-color;
+  font-family: var(--font-family);
+  margin-bottom: 20px;
+}
+.merchant-login-submit-btn:hover {
+  background-color: #7ffad2;
+}
+.merchant-form-title {
+  line-height: 1;
+  font-size: 17px;
+  color: #2d3134;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+.merchant-login-logo {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: block;
+  margin: 0 auto;
+}
+.merchant-login {
+  color: #2d3134;
+  font-size: 0.9em;
+  text-decoration: underline !important;
+  display: block;
+}
+.forgot-password {
+  color: #2d3134;
+  font-size: 0.9em;
+  text-decoration: underline !important;
+  display: block;
+  margin-bottom: 12px;
+}
+.form-group1 {
+  position: relative;
+}
+.form-group1 .email-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: #9b9b9b;
+  font-size: 19px;
+}
+.form-group2 {
+  position: relative;
+}
+.form-group2 .lock-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: #9b9b9b;
+  font-size: 19px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  color: #8a959e;
+  font-weight: 300;
+  font-size: 13px;
+  position: fixed;
+  bottom: 0;
+}
+footer p a span {
+  color: #8a959e;
+}
+.footer-bucky {
+  margin-right: 5px;
+}
+@media only screen and (max-width: 380px) {
+  .merchantLogin-wrap {
+    width: 100%;
+  }
+  .merchant-login-submit-btn {
+    font-size: 1em;
+  }
+  .merchant-login-logo {
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+  }
+  .merchant-form-title {
+    line-height: 1;
+    font-size: 16px;
+    color: #2d3134;
+  }
+}
+/* ..............merchant page css end.................. */

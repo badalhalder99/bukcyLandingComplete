@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucky</title>
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/businessDetails3.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="px-3 py-2 border-b border-gray-300 header-wrap">
+      <div class="container mx-auto"></div>
+      <div class="flex justify-between items-center">
+        <a href="#" class="logo-link">
+          <img src="./img/logo.png" alt="" class="logo" />
+        </a>
+        <a href="#" class="log-out font-semibold">Log out</a>
+      </div>
+    </header>
+    <!-- Business Register Section -->
+    <section
+      class="container mx-auto px-3 py-3 gap-5 grid md:grid-cols-1 lg:grid-cols-12"
+    >
+      <!-- left Side-->
+      <div class="col-span-12 lg:col-span-3 text-black mt-5"">
+        <h2 class="afterpay-apply-heading">Apply to join Bucky</h2>
+        <p class="afterpay-apply-description mb-5">Fill out these sections so we can set up your Bucky account.</p>
+        <div class="business-step-wrap">
+          <div class="business-step flex flex-between items-center">
+            <div class="step-img">
+              <img src="./img/square-top.png" alt="">
+            </div>
+            <div class="step-heading pl-5">
+              <h6>Your business details</h6>
+            </div>
+          </div>
+          <div class="business-step flex flex-between items-center business-step2">
+            <div class="step-img">
+              <img src="./img/square.png" alt="">
+            </div>
+            <div class="step-heading pl-5">
+              <h6>Link your bank</h6>
+            </div>
+          </div>
+          <div class="business-step flex flex-between items-center business-step3">
+            <div class="step-img step-img-bottom">
+              <img src="./img/square.png" alt="">
+            </div>
+            <div class="step-heading step-heading-bottom pl-5">
+              <h6>Add customer support</h6>
+            </div>
+          </div>
+       </div>
+      </div>
+      
+      <!-- middle Side-->
+      <div class="col-span-12 lg:col-span-5 text-black mt-5">
+          <h3 class="business-details-heading">2. About your store <span><i class="fa-solid fa-circle-check"></i></span></h3>
+          <p class="business-details-sub-heading">Tell us about your store. Don’t worry, this will only be visible to you, your account owners, and administrators.</p>
+          
+          <form class="flex flex-col space-y-5">
+            <label class="block business-label">
+              <span class="text-gray-700">Business name</span>
+              <input class="w-full p-4 border border-gray-300 rounded-md block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="Example: 'Bucky'" type="text" required />
+            </label>
+
+            <label class="block select-label">
+              <span class="text-gray-700">I want Bucky for</span>
+              <select class="w-full p-4 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-select" required>
+                <option value="online only">Online Only</option>
+                <option value="in-store only">In-store Only</option>
+                <option value="online and in-store">Online and In-store</option>
+              </select>
+            </label>
+            
+            <label class="block business-label">
+              <span class="text-gray-700">Website</span>
+              <input class="w-full p-4 border border-gray-300 rounded-md block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="Website URL" type="url" required />
+            </label>
+
+            <label class="block business-label">
+              <span class="text-gray-700">Facebook URL[Optional]</span>
+              <input class="w-full p-4 border border-gray-300 rounded-md block focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-input" placeholder="facebook.com/store" type="url" />
+            </label>
+
+            <label class="block select-label">
+              <span class="text-gray-700">Ecommerce Platform</span>
+              <select class="w-full p-4 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-select" required>
+                <option value="ecorner">eCorner</option>
+                <option value="chargeafter">ChargeAfter</option>
+                <option value="Commerce vision">Commerce Vision</option>
+                <option value="bigcommerce">BigCommerce</option>
+              </select>
+            </label>
+
+            <label class="block select-label">
+              <span class="text-gray-700">Total annual sales</span>
+              <select class="w-full p-4 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-select" required>
+                <option value="$0-$100k">$0-$100k</option>
+                <option value="$100k-$500k">$100k-$500k</option>
+                <option value="$500k-$1m">$500k-$1m</option>
+                <option value="$1-$2M">$1-$2M</option>
+              </select>
+            </label>
+
+            <label class="block select-label">
+              <span class="text-gray-700">Product Category</span>
+              <select class="w-full p-4 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-select" required>
+                <option value="oil">Oil</option>
+                <option value="gas">Gas</option>
+                <option value="medicine">Medicine</option>
+                <option value="electronics">Electronics</option>
+                <option value="books">Books</option>
+                <option value="others">Others</option>
+              </select>
+            </label>
+
+            <label class="block select-label">
+              <span class="text-gray-700">Do you ship the product yourself?</span>
+              <select class="w-full p-4 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-select" required>
+                <option value="yes">Yes</option>
+                <option value="no">NO</option>
+              </select>
+            </label>
+
+            <small class="text-gray-500">How long after paying will the customer usually receive their order?</small>
+            <label class="block select-label">
+              <span class="text-gray-700">Average shipping time</span>
+              <select class="w-full p-4 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 business-select" required>
+                <option value="Less than one weeks">Less than one weeks</option>
+                <option value="Less than two weeks">Less than two weeks</option>
+                <option value="Less than one month">Less than 1 month</option>
+                <option value="Less than two month">Less than 2 month</option>
+              </select>
+            </label>
+
+            <div class="business-radio-wrap mt-4">
+              <label
+                >Is your business part of a franchise, buying group or group with
+                multiple entities?</label
+              >
+              <div class="flex radio-input">
+                <label class="mr-2">
+                  <input type="radio" name="group" class="mr-1 business-radio" />
+                  Yes
+                </label>
+                <label>
+                  <input type="radio" name="group" class="mr-1 business-radio" />
+                  No
+                </label>
+              </div>
+            </div>
+            
+            <button class="w-full text-black p-4 mb-5 rounded-md business-next" type="submit">Next</button>
+          </form>
+          <h3 class="business-details-heading">3. Owner details <span><i class="fa-solid fa-circle-check"></i></span></h3>
+      </div>
+      <!-- Right Side-->
+      <div class="col-span-12 lg:col-span-4 text-black right mt-5 right-column">
+        <div class="pay-img-wrap">
+          <img src="./img/pay.png" alt="pay image" class="w-full" />
+        </div>
+        <div class="pay-heading-wrap">
+          <h3 class="pay-heading">How Bucky pays off</h3>
+        </div>
+        <div class="pay-heading-description-wrap">
+          <h5>New customers</h5>
+          <p>
+            Our service gets people to try new places. On average, 30% of a
+            store’s Afterpay users are shopping there for the first time.
+          </p>
+        </div>
+        <div class="pay-heading-description-wrap">
+          <h5>Higher order values</h5>
+          <p>
+            Our global Afterpay community buys more. Stores that welcome our
+            members can boost average order values by up to 40%.
+          </p>
+        </div>
+        <div class="pay-heading-description-wrap">
+          <h5>More conversion</h5>
+          <p>
+            Our online shopping technology converts. Afterpay can grow cart
+            conversions by up to 22%—plus more repeat shoppers.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

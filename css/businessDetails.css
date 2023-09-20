@@ -1,0 +1,160 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-family);
+  background: #fff;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* ..............BusinessDetails page css start.................. */
+.business-content {
+  padding: 20px;
+}
+.business-content .content1 {
+  width: 70%;
+  display: flex;
+  margin: 70px auto;
+}
+.content-img img {
+  max-width: none;
+}
+.content-description {
+  padding-left: 20px;
+}
+.customer-logo {
+  width: 40px;
+  height: 51px;
+}
+.higher-convension-logo {
+  width: 40px;
+  height: 51px;
+}
+.join-afterParty-logo {
+  width: 40px;
+  height: 51px;
+}
+.content-description h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-family: var(--font-family);
+}
+.content-description p {
+  font-size: 15px;
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+.business-form-heading {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 3rem;
+}
+.business-form input,
+.business-form select {
+  color: black;
+}
+.business-form input:focus,
+.business-form select:focus {
+  outline: 2px solid #b2fce4;
+  border: 1px solid #fff;
+}
+.business-submit {
+  background: #b2fce4;
+  font-weight: 600;
+  font-family: var(--font-family);
+  transition: all 0.5s ease;
+}
+.business-submit:hover {
+  background: #7cb09f;
+}
+.business-form input.business-radio:focus {
+  outline: none;
+  border: 0px;
+}
+.business-radio-wrap .radio-input {
+  margin-top: 15px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .business-content .content1 {
+    width: 95%;
+    display: flex;
+    margin: 70px auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .business-content {
+    padding: 20px;
+  }
+  .business-content .content1 {
+    width: 100%;
+    display: flex;
+    margin: 50px auto;
+  }
+  .business-form {
+    padding: 0;
+    padding-top: 10px;
+  }
+  .business-form-heading {
+    font-size: 30px;
+    margin-bottom: 22px;
+    line-height: 2.5rem;
+  }
+  .business-submit {
+    margin-bottom: 25px;
+  }
+}

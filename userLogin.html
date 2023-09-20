@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bucky</title>
+    <!-- fontawesome icon cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/userLogin.css" />
+  </head>
+  <body>
+    <!-- userLogin code start -->
+    <section>
+      <div class="userLogin-wrap">
+        <a href="#" class="userLogin-logo">
+          <img src="./img/logo.png" alt="" class="user-login-logo" />
+        </a>
+        <form
+          id="loginForm"
+          class="user-login-form"
+          action="/login"
+          method="POST"
+        >
+          <div class="form-group1">
+            <label for="mobileNumber" class="user-form-label"
+              >Enter your phone number to log in to Bucky or to create a new
+              account.
+            </label>
+            <br />
+            <input
+              type="tel"
+              maxlength="11"
+              class="mobileNumber"
+              name="mobileNumber"
+              placeholder="Mobile Number"
+              required
+            />
+            <i class="fa-solid fa-mobile-screen-button mobile-icon"></i>
+          </div>
+          <div class="form-group2">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+            <i class="fa-solid fa-lock lock-icon"></i>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="user-login-submit-btn">
+              Continue
+            </button>
+          </div>
+        </form>
+        <a href="#" class="forgot-password">forgot password?</a>
+        <a href="#" class="retailer-login">Log in as a retailer instead</a>
+      </div>
+    </section>
+    <footer>
+      <p>
+        <span>&copy; 2023</span>
+        <span class="footer-bucky">Bucky</span>
+        <a href="#"><span>Privacy |</span></a>
+        <a href="#"><span>Terms</span></a>
+      </p>
+    </footer>
+    <!-- userLogin code end -->
+    <!-- custom js code -->
+    <script>
+      // ................userLogin form code....................
+
+      const loginForm = document.getElementById("loginForm");
+      loginForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the default form submission behavior
+        console.log("Form already submitted!");
+      });
+    </script>
+  </body>
+</html>

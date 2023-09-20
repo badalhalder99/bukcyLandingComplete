@@ -1,0 +1,196 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-family);
+  background: #fff;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* ..............BusinessDetails page css start.................. */
+.log-out:hover {
+  text-decoration: underline !important;
+}
+.shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.thanks-left,
+.right-wrap {
+  margin-top: 24px;
+}
+@media (min-width: 1024px) {
+  .thanks-left {
+    width: 60%;
+  }
+}
+@media (min-width: 641px) and (max-width: 1240px) {
+  .container {
+    padding: 0;
+  }
+}
+.thanks-heading {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.thanks-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.done-bucky-wrap,
+.review-wrap {
+  background: #000;
+  padding: 25px 20px;
+  color: white;
+  border-radius: 11px;
+  margin-bottom: 16px;
+}
+.done-bucky-wrap h2,
+.review-heading h2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.done-bucky-wrap h6,
+.review-wrap h6 {
+  color: #b2fce4;
+  font-size: 16px;
+  font-weight: 600;
+}
+.checkout-wrap,
+.messagin-wrap {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 25px 20px;
+  color: white;
+  border-radius: 11px;
+  margin-bottom: 16px;
+}
+.checkout-wrap h2,
+.messagin-wrap h2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000;
+}
+.review-heading p {
+  font-size: 15px;
+}
+.review-heading h2 {
+  margin-top: -4px;
+}
+@media (min-width: 641px) and (max-width: 1023px) {
+  .container {
+    max-width: 600px;
+  }
+  .right-wrap {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
+  .right-wrap {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .thanks-heading {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .thanks-description {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  .right-wrap {
+    margin-top: 0px;
+  }
+  .thanks-description {
+    margin-bottom: 12px;
+  }
+  .thanks-description2 {
+    margin-bottom: 10px;
+  }
+  .done-bucky-wrap h2,
+  .review-heading h2 {
+    font-size: 19px;
+  }
+  .done-bucky-wrap h6,
+  .review-wrap h6 {
+    font-size: 14px;
+  }
+  .review-heading p {
+    font-size: 14px;
+  }
+  .checkout-wrap h2,
+  .messagin-wrap h2 {
+    font-size: 18px;
+  }
+  .checkout-wrap,
+  .messagin-wrap {
+    padding: 20px;
+  }
+  .done-bucky-wrap,
+  .review-wrap {
+    padding: 22px 20px;
+  }
+}
